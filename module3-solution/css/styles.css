@@ -1,0 +1,70 @@
+
+/**  HEADER  **/
+#header-nav {
+	background-color: Grey;
+	border-radius: 0;
+	border-color: black;
+	border: 10;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	
+}
+
+.navbar-brand h1 {
+	font-family: 'Arial', cursive;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow:  1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list a {
+	
+	border-color: black;
+	text-align: center;	
+	line-height: .75;
+  	font-size: 1.8em;
+  	color: black;
+}
+
+#nav-list a:hover {
+	background-color: white;
+  	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: gray;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
